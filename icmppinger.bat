@@ -10,56 +10,6 @@ title pinging ~%var%~
 :x
 PING -l 1 -n 1 %var% | FIND "TTL="
 IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
-PING -l 1 -n 1 %var% | FIND "TTL="
-IF ERRORLEVEL 1 goto f
 GoTo d
 :f
 echo offline
